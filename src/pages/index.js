@@ -74,4 +74,4 @@ export default function HomePage() {
         <p className="text-gray-500">Follow us @CheckmatesLLC | Made in Owensboro</p>
       </footer>
     </div>
-  );
+  );}
