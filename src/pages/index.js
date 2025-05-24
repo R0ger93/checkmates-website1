@@ -3,8 +3,7 @@ export default function HomePage() {
   return (
     <div
       className="min-h-screen bg-cover bg-center text-white font-sans relative"
-      style={{ backgroundImage: 'url("/thumbnail.jpg")' }}
-    >
+          >
       <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
 
       <div className="relative z-10 flex flex-col items-center text-center px-4 py-10">
