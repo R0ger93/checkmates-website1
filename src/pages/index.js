@@ -13,7 +13,7 @@ export default function HomePage() {
           alt="Checkmates Logo"
           className="w-64 h-auto mb-6 mx-auto rounded-xl shadow-xl"
         />
-        <h1 className="text-5xl md:text-6xl font-extrabold text-yellow-400">Welcome to Checkmates</h1>
+ 
         <p className="text-xl mt-4 text-gray-200">Bold BBQ. Killer Cheesecake. All Check.</p>
         <a
           href="#menu"
