@@ -4,7 +4,7 @@ export default function HomePage() {
     <div
       className="min-h-screen bg-cover bg-center text-white font-sans relative"
         style={{
-         backgroundImage: "url('/yourimage.jpg')"
+         backgroundImage: "url('/thumbnail1.jpg')"
          backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
