@@ -4,10 +4,11 @@ export default function HomePage() {
     <div
       className="min-h-screen bg-cover bg-center text-white font-sans relative"
         style={{
-          backgroundImage: "url('/yourimage.jpg')"
+         backgroundImage: "url('/yourimage.jpg')"
             backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
           }}
           >
       <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
