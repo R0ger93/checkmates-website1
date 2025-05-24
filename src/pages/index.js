@@ -2,7 +2,7 @@
 export default function HomePage() {
   return (
     <div
-      className="w-screen h-screen bg-cover bg-center bg-no-repeat"
+      className="w-screen min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
          backgroundImage: "url('/thumbnail1.jpg')"
          backgroundSize: "cover",
@@ -12,7 +12,7 @@ export default function HomePage() {
           >
       <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
 
-      <div className="relative z-10 flex flex-col items-center text-center px-4 py-20">
+      <div className="relative z-10 flex flex-col justify-center items-center text-center px-4 py-20">
         <img
           src="/logo.png"
           alt="Checkmates Logo"
