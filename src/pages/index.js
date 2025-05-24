@@ -5,7 +5,7 @@ export default function HomePage() {
       className="min-h-screen bg-cover bg-center text-white font-sans relative"
         style={{
          backgroundImage: "url('/yourimage.jpg')"
-         backgroundSize: "fixed",
+         backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundAttachment: "fixed",
