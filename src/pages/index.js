@@ -2,7 +2,7 @@
 export default function HomePage() {
   return (
     <div
-      className="w-screen min-h-screen bg-cover bg-center bg-no-repeat"
+      className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex flex-col"
         style={{
          backgroundImage: "url('/thumbnail1.jpg')"
          backgroundSize: "cover",
