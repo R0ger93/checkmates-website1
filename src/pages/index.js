@@ -8,7 +8,6 @@ export default function HomePage() {
          backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          backgroundAttachment: "fixed",
           }}
           >
       <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
