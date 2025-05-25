@@ -1,20 +1,23 @@
 export default function HomePage() {
   return (
     <section
-      className="w-screen h-screen bg-cover bg-center bg-no-repeat relative flex justify-center items-center"
+      className="w-screen h-screen flex justify-center items-center relative overflow-hidden"
       style={{
-        backgroundImage: "url('/thumbnail1.jpg')", // Make sure this file is in /public
+        backgroundImage: "url('/thumbnail1.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
       }}
     >
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+      <div className="absolute inset-0 bg-black opacity-60 z-0" />
 
       {/* Logo centered */}
-      <div className="relative z-10">
+      <div className="relative z-10 flex flex-col items-center">
         <img
-          src="/logo.png" // Make sure this file is in /public
+          src="/logo.png"
           alt="Checkmates Logo"
-          className="w-64 h-auto mx-auto rounded-xl shadow-xl"
+          className="w-[300px] h-auto rounded-xl shadow-2xl"
         />
       </div>
     </section>
