@@ -1,34 +1,31 @@
 export default function HomePage() {
   return (
-    <div
-      style={{
-        backgroundImage: "url('/thumbnail1.jpg')",
-        backgroundSize: "50%",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        width: "100vw",
-        height: "100vh",
-      }}
-      className="text-white font-sans relative overflow-hidden"
-    >
-      <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+    <div className="font-sans text-white bg-black">
 
-      <div className="relative z-10 flex flex-col justify-center items-center text-center px-4 py-20">
-        <img
-          src="/logo.png"
-          alt="Checkmates Logo"
-          className="w-64 h-auto mb-6 mx-auto rounded-xl shadow-xl"
-        />
-        <p className="text-xl mt-4 text-gray-200">
-          Bold BBQ. Killer Cheesecake. All Check.
-        </p>
-        <a href="#menu">
-          <div className="mt-6 inline-block bg-yellow-400 text-black font-bold py-2 px-6 rounded-full hover:bg-yellow-300">
-            View Menu
-          </div>
-        </a>
-      </div>
+      {/* HERO SECTION */}
+      <section
+        className="w-screen h-screen bg-no-repeat bg-cover bg-center relative"
+        style={{
+          backgroundImage: "url('/thumbnail1.jpg')",
+        }}
+      >
+        <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
 
+        <div className="relative z-10 flex flex-col justify-center items-center text-center px-4 py-20 h-full">
+          <img
+            src="/logo.png"
+            alt="Checkmates Logo"
+            className="w-64 h-auto mb-6 mx-auto rounded-xl shadow-xl"
+          />
+          <p className="text-xl mt-4 text-gray-200">
+            Bold BBQ. Killer Cheesecake. All Check.
+          </p>
+          <a href="#menu">
+            <div className="mt-6 inline-block bg-yellow-400 text-black font-bold py-2 px-6 rounded-full hover:bg-yellow-300">
+              View Menu
+            </div>
+          </a>
+        </div>
       <section className="px-6 md:px-20 py-12 bg-black bg-opacity-70 text-center" id="about">
         <h2 className="text-4xl font-bold mb-4 text-yellow-400">The Opening Move</h2>
         <p className="text-gray-200 max-w-2xl mx-auto">
