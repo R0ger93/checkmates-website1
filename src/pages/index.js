@@ -5,9 +5,12 @@ export default function HomePage() {
       className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex flex-col"
         style={{
          backgroundImage: "url('/thumbnail1.jpg')"
-         backgroundSize: "100% 100%",
+         backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
+          width: "100vw",
+          height: "100vh",
+          overflow: "hidden",
           }}
           >
       <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
