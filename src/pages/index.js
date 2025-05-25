@@ -5,9 +5,8 @@ export default function HomePage() {
       {/* HERO SECTION */}
       <section
         className="w-screen h-screen bg-no-repeat bg-cover bg-center relative"
-        style={{
-          backgroundImage: "url('/thumbnail1.jpg')",
-        }}
+        style={ backgroundImage: "url('/thumbnail1.jpg')",
+          
       >
         <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
 
