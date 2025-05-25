@@ -3,7 +3,7 @@ export default function HomePage() {
     <div
       style={{
         backgroundImage: "url('/thumbnail1.jpg')",
-        backgroundSize: "cover",
+        backgroundSize: "50%",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         width: "100vw",
