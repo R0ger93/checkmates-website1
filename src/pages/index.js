@@ -5,7 +5,7 @@ export default function HomePage() {
       className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex flex-col"
         style={{
          backgroundImage: "url('/thumbnail1.jpg')"
-         backgroundSize: "fit to page",
+         backgroundSize: "cover",
           backgroundPosition: "no-repeat",
           backgroundRepeat: "no-repeat",
           width: "100vw",
