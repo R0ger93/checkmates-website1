@@ -2,17 +2,20 @@ export default function HomePage() {
   return (
     <div
       style={{
+        position: "fixed",
+        top: 0,
+        left: 0,
         height: "100vh",
         width: "100vw",
         backgroundImage: "url('/checkmateblack.png')",
-        backgroundSize: "100% 100%", // STRETCH it fully, edge to edge
-        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover", // This fills while keeping aspect ratio
         backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
         backgroundColor: "#000",
+        overflow: "hidden",
       }}
     >
-      {/* Optional placeholder to help load */}
-      <div style={{ height: "100%", width: "100%" }}></div>
+      {/* Can add more content here if needed */}
     </div>
   );
 }
