@@ -1,10 +1,16 @@
-<div
-  className="w-screen min-h-screen bg-cover bg-center bg-no-repeat"
-  style={{
-    backgroundImage: "url('/checkmateblack.png')",
-    backgroundSize: "contain",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundColor: "#000",
-  }}
->
+export default function HomePage() {
+  return (
+    <div
+      className="w-screen h-screen bg-no-repeat bg-center bg-cover"
+      style={{
+        backgroundImage: "url('/checkmateblack.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundColor: "#000",
+      }}
+    >
+      {/* Optional content here, like logo tag or button */}
+    </div>
+  );
+}
