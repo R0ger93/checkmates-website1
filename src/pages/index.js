@@ -10,7 +10,7 @@ export default function HomePage() {
         backgroundColor: "#000",
       }}
     >
-    
+{}
     </div>
   );
 }
