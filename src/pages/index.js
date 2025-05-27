@@ -10,9 +10,7 @@ export default function HomePage() {
         backgroundColor: '#000'
       }}
     >
-      <h1 className="text-4xl font-bold bg-black bg-opacity-70 p-4 rounded">
-        If you see this, the background loaded correctly 🔥
-      </h1>
+      {/* Optional: Content */}
     </div>
   );
 }
