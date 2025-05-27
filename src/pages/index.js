@@ -1,16 +1,18 @@
 export default function HomePage() {
   return (
     <div
-      className="w-screen min-h-screen bg-cover bg-center bg-no-repeat"
       style={{
+        height: "100vh",
+        width: "100vw",
         backgroundImage: "url('/checkmateblack.png')",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        backgroundColor: '#000'
+        backgroundSize: "100% 100%", // STRETCH it fully, edge to edge
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundColor: "#000",
       }}
     >
-      {/* Optional: Content */}
+      {/* Optional placeholder to help load */}
+      <div style={{ height: "100%", width: "100%" }}></div>
     </div>
   );
 }
