@@ -1,7 +1,7 @@
 export default function HomePage() {
   return (
     <div
-      className="w-screen h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center text-white"
+      className="w-screen min-h-screen bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: "url('/checkmateblack.png')",
         backgroundSize: 'cover',
