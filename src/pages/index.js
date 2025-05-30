@@ -12,29 +12,16 @@ export default function HomePage() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundColor: "#000",
-        overflow: "auto",
+        overflow: "hidden",
         display: "flex",
-        justifyContent: "flex-start",
+        justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
         textAlign: "center",
-        padding: "2rem 1rem",
-        paddingTop: "20vh"
+        padding: "1rem"
       }}
     >
-      <h1
-        style={{
-          color: "#FFD700",
-          fontSize: "clamp(2rem, 5vw, 4rem)",
-          marginBottom: "1.5rem",
-          textShadow: "2px 2px 4px rgba(0,0,0,0.6)",
-          maxWidth: "90%",
-          lineHeight: "1.2"
-        }}
-      >
-        Welcome to Checkmates LLC
-      </h1>
-      <div style={{ display: "flex", flexDirection: "column", gap: "1rem", width: "100%", maxWidth: "400px" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
         <a
           href="/menu"
           style={{
@@ -46,8 +33,7 @@ export default function HomePage() {
             fontWeight: "bold",
             borderRadius: "999px",
             fontSize: "clamp(1rem, 2.5vw, 1.25rem)",
-            boxShadow: "0 4px 6px rgba(0,0,0,0.3)",
-            width: "100%"
+            boxShadow: "0 4px 6px rgba(0,0,0,0.3)"
           }}
         >
           View Menu
@@ -63,8 +49,7 @@ export default function HomePage() {
             fontWeight: "bold",
             borderRadius: "999px",
             fontSize: "clamp(1rem, 2.5vw, 1.25rem)",
-            boxShadow: "0 4px 6px rgba(0,0,0,0.3)",
-            width: "100%"
+            boxShadow: "0 4px 6px rgba(0,0,0,0.3)"
           }}
         >
           Contact Us
@@ -80,8 +65,7 @@ export default function HomePage() {
             fontWeight: "bold",
             borderRadius: "999px",
             fontSize: "clamp(1rem, 2.5vw, 1.25rem)",
-            boxShadow: "0 4px 6px rgba(0,0,0,0.3)",
-            width: "100%"
+            boxShadow: "0 4px 6px rgba(0,0,0,0.3)"
           }}
         >
           About Us
