@@ -14,11 +14,13 @@ export default function HomePage() {
         backgroundColor: "#000",
         overflow: "hidden",
         display: "flex",
-        justifyContent: "center",
+        justifyContent: "flex-start",
         alignItems: "center",
         flexDirection: "column",
         textAlign: "center",
-        padding: "1rem"
+        paddingTop: "28vh",
+        paddingLeft: "1rem",
+        paddingRight: "1rem"
       }}
     >
       <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
